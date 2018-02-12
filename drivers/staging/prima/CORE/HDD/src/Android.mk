@@ -4,11 +4,7 @@
 
 LOCAL_PATH := $(call my-dir)
 WLAN_BLD_DIR := vendor/qcom/proprietary/wlan
-ifeq ($(call is-android-codename,JELLY_BEAN),true)
-       DLKM_DIR := $(TOP)/device/qcom/common/dlkm
-else
-       DLKM_DIR := build/dlkm
-endif
+DLKM_DIR := build/dlkm
 
 include $(CLEAR_VARS)
 LOCAL_MODULE       := WCNSS_cfg.dat
