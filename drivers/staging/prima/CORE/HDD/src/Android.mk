@@ -4,7 +4,7 @@
 
 LOCAL_PATH := $(call my-dir)
 WLAN_BLD_DIR := vendor/qcom/proprietary/wlan
-DLKM_DIR := build/dlkm
+DLKM_DIR := device/xiaomi/aries/dlkm
 
 include $(CLEAR_VARS)
 LOCAL_MODULE       := WCNSS_cfg.dat
